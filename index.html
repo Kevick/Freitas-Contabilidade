@@ -49,7 +49,7 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <h1 class="sitename" style="color:black">Freitas Contabilidade</h1>
+        <h3 class="sitename" style="color:black">Freitas Contabilidade</h3>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -186,20 +186,24 @@
             <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
 
               <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="mb-3">
+                <h4 class="mb-3">
                   <strong>Restaurantes, Bares, Agropecuária, Perfumarias,
                     Auto Peças, Farmácias, Padarias, Lojas de Produtos de Beleza, Conveniências</strong> e
                   <strong>Mercearias/Mercados</strong>.
-                  </h2>
-                <h1 class="mb-3 text-danger fw-bold">
+                </h4>
+                <h2 class="mb-3 text-danger fw-bold">
                   SUA EMPRESA PODE ESTAR PAGANDO IMPOSTOS INDEVIDOS.
-                </h1>
+                </h2>
                 <p class="mb-4">
                   Algumas mercadorias possuem tributação monofásica, o que significa que você não paga impostos quando
-                  vende. Nós verificamos o cadastro de suas mercadorias para garantir que estejam corretamente
-                  classificadas entre mercadorias tributadas, monofásicas e sujeitas à substituição tributária. A
-                  correta tributação garante o cálculo exato dos seus impostos.
+                  vende.
                 </p>
+
+                <p class="mb-4">
+                  Nós verificamos o cadastro de suas mercadorias para garantir que estejam corretamente
+                  classificadas entre mercadorias tributadas, monofásicas e sujeitas à substituição tributária.
+                </p>
+                <p class="mb-4"><u>A correta tributação garante o cálculo exato dos seus impostos.</u></p>
               </div>
 
             </div>
@@ -225,11 +229,11 @@
 
           <div class="col-lg-6 pt-4 pt-lg-0 content">
             <h3 class="fw-bold">Planejamento Tributário Personalizado</h3>
-            <p class="fst-italic">
+            <h6 class="fst-italic">
               Oferecemos um planejamento tributário estratégico, focado em garantir que sua empresa pague a menor
-              alíquota
-              de imposto possível, sempre respeitando as normas e legislação vigente.
-            </p>
+              alíquota de impostos, sempre em conformidade com as normas e a legislação vigente.
+            </h6>
+            <br>
 
             <ul class="list-unstyled">
               <li class="servico-item mb-3">
@@ -266,7 +270,6 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Serviços</h2>
-        <p>um pouco de tudo que oferecemos!</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -275,51 +278,152 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-building icon"></i></div>
-              <h4><a href="" class="stretched-link">Abertura de Empresa</a></h4>
-              <p>Apoio completo para a abertura e regularização da sua empresa.</p>
+              <h4>
+                <a href="#" class="stretched-link" data-bs-toggle="modal"
+                  data-bs-target="#popupAberturaEmpresa">Abertura de Empresa</a>
+              </h4>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+
+          <div class="modal fade" id="popupAberturaEmpresa" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Abertura de Empresa</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Apoio completo para a abertura e regularização da sua empresa.
+                </div>
+              </div>
+            </div>
+          </div><!-- End Modal -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-file-earmark-check icon"></i></div>
-              <h4><a href="" class="stretched-link">Certidão Negativa</a></h4>
-              <p>Controle e emissão de certidão negativa de todos os órgãos competentes.</p>
+              <h4>
+                <a href="#" class="stretched-link" data-bs-toggle="modal"
+                  data-bs-target="#popupCertidaoNegativa">Certidão Negativa</a>
+              </h4>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+
+          <div class="modal fade" id="popupCertidaoNegativa" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Certidão Negativa</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Controle e emissão de certidão negativa de todos os órgãos competentes.
+                </div>
+              </div>
+            </div>
+          </div><!-- End Modal -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-person-badge icon"></i></div>
-              <h4><a href="" class="stretched-link">Departamento Pessoal</a></h4>
-              <p>Cuidado com a folha de pagamento e representação no Ministério do Trabalho.</p>
+              <h4>
+                <a href="#" class="stretched-link" data-bs-toggle="modal"
+                  data-bs-target="#popupDepartamentoPessoal">Departamento Pessoal</a>
+              </h4>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+
+          <div class="modal fade" id="popupDepartamentoPessoal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Departamento Pessoal</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Cuidado com a folha de pagamento e representação no Ministério do Trabalho.
+                </div>
+              </div>
+            </div>
+          </div><!-- End Modal -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-file-earmark-text icon"></i></div>
-              <h4><a href="" class="stretched-link">Declaração de Imposto de Renda</a></h4>
-              <p>Elaboração e entrega da declaração de forma precisa e eficiente.</p>
+              <h4>
+                <a href="#" class="stretched-link" data-bs-toggle="modal"
+                  data-bs-target="#popupDeclaracaoImposto">Declaração de Imposto de Renda</a>
+              </h4>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+
+          <div class="modal fade" id="popupDeclaracaoImposto" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Declaração de Imposto de Renda</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Elaboração e entrega da declaração de forma precisa e eficiente.
+                </div>
+              </div>
+            </div>
+          </div><!-- End Modal -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-bar-chart icon"></i></div>
-              <h4><a href="" class="stretched-link">Planejamento Tributário</a></h4>
-              <p>Melhor opção de tributação para sua empresa.</p>
+              <h4>
+                <a href="#" class="stretched-link" data-bs-toggle="modal"
+                  data-bs-target="#popupPlanejamentoTributario">Planejamento Tributário</a>
+              </h4>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+
+          <div class="modal fade" id="popupPlanejamentoTributario" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Planejamento Tributário</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Melhor opção de tributação para sua empresa.
+                </div>
+              </div>
+            </div>
+          </div><!-- End Modal -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-shield-lock icon"></i></div>
-              <h4><a href="" class="stretched-link">Exigências Fiscais</a></h4>
-              <p>Atendimento às exigências de natureza fiscal e tributária.</p>
+              <h4>
+                <a href="#" class="stretched-link" data-bs-toggle="modal"
+                  data-bs-target="#popupExigenciasFiscais">Exigências Fiscais</a>
+              </h4>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
+          <div class="modal fade" id="popupExigenciasFiscais" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Exigências Fiscais</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Atendimento às exigências de natureza fiscal e tributária.
+                </div>
+              </div>
+            </div>
+          </div><!-- End Modal -->
         </div>
       </div>
 
@@ -338,58 +442,60 @@
     <!-- Faq 2 Section -->
 
 
-   <!-- Contact Section -->
-<section id="contact" class="contact section">
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
 
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Contato</h2>
-    <p>Somos profissionais habilitados para desenvolver serviços de contabilidade de qualidade e confiabilidade, atuando com vários segmentos independente da tributação. Com a equipe sempre atualizada em legislação, nosso diferencial é entregar muito mais do que serviço, mas garantir sua tranquilidade, atuamos com total clareza, objetividade, confiança e segurança.</p>
-  </div><!-- End Section Title -->
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Consultoria em Informação</h2>
+        <p>A <strong>Freitas Contabilidade</strong> conta com a parceria da <strong>Econet Editora</strong> para tratar
+          de assuntos relacionados ao dia a dia da sua empresa, garantindo que nossa equipe esteja sempre atualizada nas
+          áreas fiscal, contábil, tributária, trabalhista e previdenciária.</p>
+      </div><!-- End Section Title -->
 
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="row gy-4">
-      <div class="col-lg-5">
-        <div class="info-wrap">
-          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <i class="bi bi-geo-alt flex-shrink-0"></i>
-            <div>
-              <h3>Endereço</h3>
-              <p>Rua 558, Número 70, Sala 205, Aterrado, Volta Redonda<br>CEP 27215-120</p>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-5">
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Endereço</h3>
+                  <p>Rua 558, Número 70, Sala 205, Aterrado, Volta Redonda<br>CEP 27215-120</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Telefone</h3>
+                  <p>(24) 3336-1584 – (24) 97402-2480</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>freitascontabilidade@outlook.com</p>
+                </div>
+              </div><!-- End Info Item -->
             </div>
-          </div><!-- End Info Item -->
+          </div>
 
-          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <i class="bi bi-telephone flex-shrink-0"></i>
-            <div>
-              <h3>Telefone</h3>
-              <p>(24) 3336-1584 – (24) 97402-2480</p>
+          <div class="col-lg-7">
+            <div class="map-container" style="height: 270px;">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9784150215597!2d-44.10762682495351!3d-22.517776785194204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9e97d6ad63cb11%3A0x6c4c4d8f3d4af60d!2sRua%20558%20-%20Aterrado%2C%20Volta%20Redonda%20-%20RJ%2C%2027215-120!5e0!3m2!1spt-BR!2sbr!4v1696417195602!5m2!1spt-BR!2sbr"
+                frameborder="0" style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-          </div><!-- End Info Item -->
+          </div>
 
-          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <i class="bi bi-envelope flex-shrink-0"></i>
-            <div>
-              <h3>Email</h3>
-              <p>freitascontabilidade@outlook.com</p>
-            </div>
-          </div><!-- End Info Item -->
         </div>
       </div>
 
-      <div class="col-lg-7">
-        <div class="map-container" style="height: 270px;">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9784150215597!2d-44.10762682495351!3d-22.517776785194204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9e97d6ad63cb11%3A0x6c4c4d8f3d4af60d!2sRua%20558%20-%20Aterrado%2C%20Volta%20Redonda%20-%20RJ%2C%2027215-120!5e0!3m2!1spt-BR!2sbr!4v1696417195602!5m2!1spt-BR!2sbr"
-            frameborder="0" style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-</section><!-- /Contact Section -->
+    </section><!-- /Contact Section -->
 
 
     <!-- Consultoria Section -->
@@ -398,10 +504,10 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Consultoria em Informação</h2>
-        <p>Conheça nossa consultoria especializada! A <strong>Freitas Contabilidade</strong> conta com a parceria da
-          equipe da <strong>Econet Editora</strong> para oferecer suporte em assuntos essenciais ao dia a dia da sua
-          empresa. Nossa consultoria garante que você tenha as melhores orientações fiscais, contábeis e tributárias
-          para manter sua empresa sempre em conformidade e competitiva no mercado.</p>
+        <p>A <strong>Freitas Contabilidade</strong> conta com a parceria da
+          equipe da <strong>Econet Editora</strong> para tratar de assuntos relacionados ao dia a dia da sua empresa,
+          garantindo assim que nossa equipe esteja atualizada sobre as áreas fiscal, contábil, tributária, trabalhista
+          ou previdenciária.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
